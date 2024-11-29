@@ -9,14 +9,23 @@
         
         
         <!-- Style CSS-->
-        <link href="" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        
+        <!-- Style Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+        </style>
+
         
         <!-- Bootstrap CSS  -->
         <!-- A voir si j'utilise Bootstrap ou une grille  -->
-        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
         
         <!-- Titre de ma page -->
         <title>Accueil Portfolio</title>
@@ -26,53 +35,85 @@
         <header>
             <!-- Menu de navigation 
              Ajouter un fond gris et une couleur dorée sur le thème où je suis -->
-            <nav> 
-                <ul>
-                    <a href="">À Propos</a>
-                    <a href="">Le BTS SIO</a>
-                    <a href="">Projets</a>
-                    <a href="">Veille Technologique</a>
-                </ul>
+            <nav class="navbar navbar-expand-sm fixed-top">
+                <div class="collapse navbar-collapse justify-content-center ">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#profile">À Propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#bts">Le BTS SIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#project">Projets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#monitoring">Veille Technologique</a>
+                        </li>
+                    </ul>
+                </div>  
             </nav>
         </header>
 
         <main> 
             <!-- Ma OnePage qui défile -->
             <!-- Photo de profil -->
-            <img src="" alt=""> 
-            <h1>GEORGET</h1>
-            <h1>Félicien ___________________________________________________</h1>
             <br>
-            <!-- Premier carré -->
-            <p>BAC STMG Option Mercatique</p>
-            <!-- Deuxième carré -->
-            <p>BTS Management des Unités Commerciales</p>
-            <!-- Troisième carré -->
-            <p>BTS SIO Option SLAM</p>
-            <!-- Quatrième carré  -->
-            <p>Licence/Master ?</p>
+            <br>
+            <br>
+            <img src="/img/pp.png" alt="Photo de profil" id="profile"> 
+            <h1>GEORGET</h1>
+            <h1>Félicien</h1>
+            <div id="line"></div>
+            <br>
+            <div>
+                <div id="squareBlue">
+                    <!-- Premier carré -->
+                    <p id="unrotate">BAC STMG Option Mercatique</p>
+                </div>
+                <div id="squareGreen">
+                    <!-- Deuxième carré -->
+                    <p id="unrotate">BTS Management des Unités Commerciales</p>
+                </div>
+                <div id="squareOrange">
+                    <!-- Troisième carré -->
+                    <p id="unrotate">BTS SIO Option SLAM</p>
+                </div>
+                <div id="squareRed">
+                    <!-- Quatrième carré  -->
+                    <p id="unrotate">Licence/Master ?</p>
+                </div>
+            </div>
+            
+            
             <br>
             <br>
             <br>
 
             <!-- Projet pour la suite / Petit paragraphe -->
+            <p>Par la suite j'aimerai poursuivre sur une licence et potentiellement un master en fonction de ma 
+                motivation et des différentes opportunitées qui peuvent s'offrir à moi pour rejoindre le monde du travail.
+            </p>
 
 
-            <h3>Languages</h3>
+            <h3>Languages maitrisés</h3>
             <!-- Ajouter les images des différents languages maitrisé CF Figma -->
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+            <img src="/img/html.png" alt="Logo HTML" id="logo">
+            <img src="/img/css.png" alt="Logo CSS" id="logo">
+            <img src="/img/cSharp.png" alt="Logo C#" id="logo">
+            <img src="/img/php.png" alt="Logo PHP" id="logo">
+            <img src="/img/sql.png" alt="Logo SQL" id="logo">
+            <!-- <img src="" alt="Logo Symphony" id="logo"> Après le stage ? -->
+            
             <br>
             <br>
 
 
             <!-- Présentation rapide du BTS / Pas valorisé -->
+            <!-- Couper en deux coté avec une sorte d'étiquette qui tourne en passant dessus-->
+            <br id="bts">
             <h5>Le Brevet de Technicien Supérieur aux Services Informatiques aux Organisations (BTS SIO)</h5>
-            <p>, s'adresse aux personnes souhaitant se former en deux ans aux métiers orienté réseau ou de développeur. 
+            <p>s'adresse aux personnes souhaitant se former en deux ans aux métiers orienté réseau ou de développeur. 
                 Pour pouvoir ensuite avoir la capacité d'intégrer directement le marché du travail ou continuer des études, 
                 dans le domaine de l'informatique. </p>
             <br>
@@ -84,11 +125,11 @@
             
             <br>
             <br>
-
+            <br id="project">
 
             <!-- Projets PPE/Stage -->
             <h1>Projets</h1>
-            <!-- Couper en deux ? Côté PPE et côté  -->
+            <!-- Couper en deux ? Côté PPE et côté stage-->
             <!--Projet n°1 en PPE appel d’offre OID (Octobre)  
                 Projet n°2 en PPE site web Eric Favre Davézieux (horrible)  
                 Projet n°3 en PPE = Portfolio (ce que je fais actuellement)  
@@ -97,36 +138,80 @@
                 Mission de stage n°2 : Création d’un organigramme intéractif  
                 Mission de stage n°3 : À voir en Janvier -->
             
+            <br id="monitoring">
 
             <!-- Veille techno -->
-            <h1>Veille technologique</h1>
-            <h4>Le sujet de veille retenu est : Numérique et santé. </h4>
-            <p>Le numérique est déjà très présent dans le domaine de la santé mais avec l'évolution de l'IA qui devient une aide précieuse 
-                celui-ci ne fait qu'accroitre sa présence.  
-                Chirurgie, aide à la personne, recherche sont des domaines où l'IA est une aide précieuse.  
-                
-                Heureusement dans le domaine de la santé le numérique ne se résume pas à l'IA. 
-                Les cyber-attaque en tout genre frappe le monde de la santé et les entreprises investissent massivement afin de protéger 
-                les données des différents services de santé.  
-                
-                À travers cette veille suivons ensemble les nouvelles informations dans ce domaine.</p>
+            <div class="row">
+                <div class="col-sm-12 center">
+                    <h1>Veille technologique</h1>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-sm-12 left">
+                    <h4>Le sujet de veille retenu est : Numérique et santé. </h4>
+                </div>
+            </div>
+            
+            <!-- Image sur le coté droit et texte à gauche  -->
+            <div class="row">
+                <div class="col-sm-6">
+                    <p>Le numérique est déjà très présent dans le domaine de la santé mais avec l'évolution de l'IA qui devient une aide précieuse 
+                        celui-ci ne fait qu'accroitre sa présence.  
+                        Chirurgie, aide à la personne, recherche sont des domaines où l'IA est une aide précieuse.  
+                        
+                        Heureusement dans le domaine de la santé le numérique ne se résume pas à l'IA. 
+                        Les cyber-attaque en tout genre frappe le monde de la santé et les entreprises investissent massivement afin de protéger 
+                        les données des différents services de santé.  
+                        
+                        À travers cette veille suivons ensemble les nouvelles informations dans ce domaine.
+                    </p>
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-5 center">
+                    <img src="img/Numerique.jpg" alt="NumériqueSanté" id="numerique">
+                </div>
+            </div>
+            
+        
+            
+
+            <!-- Ajouter des articles de presse pour parler de la veille / Système de grille avec plusieurs articles et si 
+             on passe la souris dessus ça tourne l'image et ça affiche un résumé de l'article -->
 
 
             <!-- FIN DE PAGE -->
-            <!-- Image d'un CV avec téléchargement si click  -->
-            <img src="" alt="">
-            <p>Télécharger le CV </p>
-
-            <!-- Accès au LinkedIn -->
-            <img src="" alt="">
-            <p>LinkedIn</p>
+            
 
             
             
         </main>
 
         <footer>
-            <!-- À voir ce que j'ajoute dedans ?-->
+            <div class="row">
+                <div class="col-sm-5" ></div>
+                <div class="col-sm-1 center">
+                    <!-- Téléchargement du cv-->
+                    <img src="/img/pdf.png" alt="Logo CV" id="logoP">
+                </div>
+                <div class="col-sm-1 center">
+                    <!-- Accès au LinkedIn -->
+                    <img src="/img/linkedin.png" alt="Logo LinkedIn" id="logoP">
+                </div>
+                <div class="col-sm-5" ></div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-5"></div>
+                <div class="col-sm-1 center">
+                    <p>Télécharger le CV </p>
+                </div>
+                <div class="col-sm-1 center">
+                    <p>LinkedIn</p>
+                </div>
+                <div class="col-sm-5"></div>
+            </div>
+            
         </footer>
 
     </body>
