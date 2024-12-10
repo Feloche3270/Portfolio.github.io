@@ -69,6 +69,7 @@ a:active{
     transform: rotate(45deg);
     border: black solid;
     border-width: 2px;
+    position: absolute;
 }
 
 #squareGreen{
@@ -78,6 +79,7 @@ a:active{
     transform: rotate(45deg);
     border: black solid;
     border-width: 2px;
+    position: absolute;
 }
 
 #squareOrange{
@@ -87,6 +89,7 @@ a:active{
     transform: rotate(45deg);
     border: black solid;
     border-width: 2px;
+    position:absolute;
 }
 
 #squareRed{
@@ -96,12 +99,12 @@ a:active{
     transform: rotate(45deg);
     border: black solid;
     border-width: 2px;
+    position: absolute;
 }
 
 #unrotate{
-    transform: rotate(-45deg);
-    text-align: center;
-    vertical-align: middle;
+    transform: rotate(-45deg); 
+    position: absolute;
 }
 
 #line{
@@ -131,4 +134,47 @@ a:active{
     width : 450px;
     height: 250px;
     border: black solid 3px;
+}
+
+#heightSquare{
+    height: 130px;
+}
+
+#paddingSquareBlue{
+    padding-left:   600px;
+}
+
+#paddingSquareGreen{
+    padding-left: 175px;
+}
+
+#paddingSquareOrange{
+    padding-left: 175px;
+}
+
+#paddingSquareRed{
+    padding-left: 175px;
+}
+
+#paddingTextBlue{
+    padding-top: 40px;
+    padding-right: 10px;
+    font-weight: 400;
+}
+
+#paddingTextGreen{
+    padding-top: 30px;
+    padding-left: 10px;
+    font-weight: 400;
+}
+
+#paddingTextOrange{
+    padding-top: 40px;
+    padding-left: 10px;
+    font-weight: 400;
+}
+
+#paddingTextRed{
+    padding-top: 60px;
+    font-weight: 400;
 }
