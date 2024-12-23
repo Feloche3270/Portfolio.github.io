@@ -1,18 +1,5 @@
 /* BLOC */
 
-body{
-    font-family: "Raleway";
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-/* header {
-    background-color:rgb(102,105,86);
-    height: 150px;
-    border-bottom: solid;
-    font-size: 20px;
-} */
-
 /* Couleur pour mes liens */
 a:link{
     color:black;
@@ -24,10 +11,6 @@ a:visited{
 
 a:hover{
     color:blue;
-}
-
-a:active{
-    color:yellow;
 }
 
 
@@ -45,6 +28,10 @@ a:active{
 }
 
 .navbar{
+    background-color: rgb(102,105,86);
+}
+
+.footer{
     background-color: rgb(102,105,86);
 }
 
@@ -74,7 +61,17 @@ a:active{
 
 /* ID */
 
-#fontSize{
+#background{
+    height: auto;
+    width: auto;
+    text-align: center;
+    background-image: url(/img/whiteBackground.jpg);
+    background-repeat: repeat;
+    background-size:contain;
+    background-position: center;
+}
+
+#smallSize{
     font-size: x-small;
 }
 
@@ -196,26 +193,22 @@ a:active{
     font-weight: 400;
 }
 
-#filiereRectangleSLAM{
-    width: 100%;
-    height: 70%;
-    background-image: url("/img/SLAM.jpg");
-   
-}
 
 #descrSLAM{
     width: 125%;
     height: 95%;
+    padding-left: 25px;
 }
 
 #descrSISR{
     width: 125%;
     height: 95%;
+    padding-right: 18px;
 }
 
 #TEST{
-    width:50%;
-    height:50%;
+    width:90%;
+    height:90%;
 }
 
 

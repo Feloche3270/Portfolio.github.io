@@ -31,31 +31,36 @@
         <title>Accueil Portfolio</title>
     </head>
     
-    <body>
+    <body class="raleway-font">
         <header>
             <!-- Menu de navigation  -->
             <!-- Ajouter un fond gris et une couleur dorée sur le thème où je suis  -->
-            <nav class="navbar navbar-expand-sm fixed-top">
-                <div class="collapse navbar-collapse justify-content-center ">
-                    <ul class="nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#profil">À Propos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#bts">Le BTS SIO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#project">Projets</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#monitoring">Veille Technologique</a>
-                        </li>
-                    </ul>
-                </div>  
-            </nav>
+            <div class="row">
+                <div class="col-sm-12">
+                    <nav class="navbar navbar-expand-sm fixed-top">
+                        <div class="collapse navbar-collapse justify-content-center ">
+                            <ul class="nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#profil">À Propos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#bts">Le BTS SIO</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#project">Projets</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#monitoring">Veille Technologique</a>
+                                </li>
+                            </ul>
+                        </div>  
+                    </nav>
+                </div>
+            </div>
         </header>
 
-        <main> 
+        <main id="background"> 
+            <!-- Pour la photo de fond flou -->
             <!-- Ma OnePage qui défile -->
             <!-- Photo de profil -->
             <br id="profil">
@@ -66,12 +71,13 @@
                 <div class="col-sm-1">
                     <a href="file/graphicDesign.html"><img src="/img/pp.png" alt="Photo de profil" id="profile"></a>
                 </div>
+                <div class="col-sm-1"></div>
                 <div class="col-sm-3">
                     <h1>GEORGET</h1>
                     <h1>Félicien</h1>
                     <div id="line"></div>
                 </div>
-                <div class="col-sm-7"></div>
+                <div class="col-sm-6"></div>
             </div>
 
             <br>
@@ -132,7 +138,7 @@
                         Par la suite j'aimerai poursuivre sur une licence et potentiellement un master orienté application métier en fonction de ma 
                         motivation et des différentes opportunitées qui peuvent s'offrir à moi pour rejoindre le monde du travail.
                     </p>
-                    <p id="fontSize">Car oui comme vous pouvez le voir le design c'est pas mon fort.</p>
+                    <p id="smallSize">Car oui comme vous pouvez le voir le design c'est pas mon fort.</p>
                 </div>
                 <div class="col-sm-1"></div>
             </div>
@@ -185,25 +191,25 @@
             <div class="row">
                 <div class="col-sm-1"></div>
                 <div class="col-sm-4 center">
-                    <!-- Refaire l'écriture en zoomé -->
+                    <!-- Refaire l'écriture en zoomé et essayé d'avoir la même dimensions sur toute mes images -->
                     <img src="/img/cmdSISR.png" alt="cmd Explication SISR" id="descrSISR">
                 </div>
-                <div class="col-sm-2"></div>
+                <div class="col-sm-1"></div>
                 <div class="col-sm-4 center">
                     <img src="/img/codeSLAM.png" alt="code Explication SLAM" id="descrSLAM">
                 </div>
-                <div class="col-sm-1"></div>
+                <div class="col-sm-2"></div>
             </div>
 
            
             <br>
-            <br>
+            <br id="project">
             
             
             <br>
             <br>
             <!-- Projets PPE/Stage -->
-            <br id="project">
+            <br>
              <div class="row">
                 <div class="col-sm-1"></div>
                 <div class="col-sm-10 center">
@@ -228,10 +234,10 @@
 
                 <div class="col-sm-1"></div>
                 <div class="col-sm-5 center">
-                    <a href="/file/ppe_OID.html"><img src="/img/SLAM.jpg" alt="Image OID" id="TEST"></a>
+                    <a href="/file/ppe_OID.html"><img src="/img/oidLogo.png" alt="Image OID" id="TEST"></a>
                 </div>
                 <div class="col-sm-5 center">
-                    <a href="file/ppe_WebsiteEF.html"><img src="/img/SLAM.jpg" alt="Image Eric Favre" id="TEST"></a>
+                    <a href="file/ppe_WebsiteEF.html"><img src="/img/efGym.jpg" alt="Image Eric Favre" id="TEST"></a>
                 </div>
                 <div class="col-sm-1"></div>
             </div>
@@ -240,6 +246,7 @@
             <div class="row">
                 <div class="col-sm-1"></div>
                 <div class="col-sm-5 center">
+                    <!-- Changer les images une fois que j'ai accès à la clé usb  -->
                     <a href="/file/stage_Audit.html"><img src="/img/SLAM.jpg" alt="Image Intranet" id="TEST"></a>
                 </div>
                 <div class="col-sm-5 center">
@@ -424,7 +431,8 @@
             
         </main>
 
-        <footer>
+        <footer class="footer">
+            <br>
             <div class="row">
                 <div class="col-sm-5" ></div>
                 <div class="col-sm-1 center">
