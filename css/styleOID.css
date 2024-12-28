@@ -29,6 +29,10 @@ a:hover{
     background-color: rgb(222,81,0);
 }
 
+.left{
+    text-align: left;
+}
+
 
 /* #ID */
 #background{

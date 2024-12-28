@@ -64,9 +64,9 @@
             <!-- Expliquer le projet, les consignes -->
             <p>
                 Voilà donc le premier projet de stage, réalisé sur la période du 13 Mai au 28 Juin 2024. 
-                Ce projet avait pour but l'étude de l'intranet en production actuellement pour entrevoir l'évolution du CMS et le développement
-                possible du module organigramme. Il a fallut rendre un audit fonctionnel et technique avec pistes d'évolution et la mise à 
-                disposition d'une maquette en fin de stage. 
+                Ce projet avait pour but l'étude de l'intranet en production actuellement pour entrevoir l'évolution du CMS et le
+                développement possible du module organigramme. Il a fallut rendre un audit fonctionnel et technique avec pistes 
+                d'évolution et la mise à disposition d'une maquette en fin de stage. 
             </p>
 
             <br>
@@ -78,8 +78,50 @@
                 s'imprégnier du code et de l'organisation des différentes tables et modules développé par celui-ci sur la technologie SPIP
                 (https://fr.wikipedia.org/wiki/SPIP_(logiciel))
 
-                J'ai donc premièrement analysé la base de donnée de l'intranet afin de mettre en lien les différentes relations des tables pour pouvoir
-                reproduir un schéma similaire lors de l'audit vers un nouvel intranet. 
+                J'ai donc premièrement analysé la base de donnée de l'intranet (composée de 140 tables!) afin de mettre en lien les 
+                différentes relations des tables et des modulesprésent dans l'intranet actuel pour pouvoir reproduir un schéma similaire
+                lors de l'audit vers un nouvel intranet. 
+
+                Après une longue analyse le schéma de la base de donnée était enfin terminé ce qui a permis d'y voir plus claire dans 
+                la relation entre les tables.
+            </p>
+
+            <p>
+                Suite à cela j'ai commencé par me poser différentes questions : Quels sont les objectifs de l'intranet ? Quelles sections
+                doivent être inclus dans l'intranet et les informations liées à ces sections ? 
+                
+                Suite à ces questions j'ai donc cherché les différents CMS (Content Management System) pouvant me permettre de créer un 
+                intranet facilement modifiable et maintenable.
+
+                J'ai premièrement pensé à Drupal(Lien vers le site Drupal) qui est un CMS open source (dans la même idée que SPIP) mais le 
+                problème après quelque test restait la compréhension du CMS et la facilité de maintenance pour une personne qui n'est pas 
+                développeur de métier. 
+            </p>
+
+            <p>
+                La deuxième solution envisagée fût SharePoint(Lien vers le site SharePoint) de la suite Microsoft 365. Tous les agents sont
+                sous Microsoft 365 et ont donc déjà des comptes de travail Microsoft. Le problème étant les limites vraiment rapide de 
+                l'intranet Sharepoint tel que l'ajout de personne en dehors de la société qui utilisent l'intranet et ces comptes ont un 
+                coût pour l'entreprise.
+                Le deuxième problème étant les applications métier développée directement dans l'intranet rendent impossible le fait 
+                d'avoir de tel applications dans SharePoint(ou pas à ma connaissance et il faudrait un portail pour rediriger vers un site 
+                externe).
+
+                L'intranet SharePoint serait un très bon modèle pour une entreprise qui aurait besoin d'effectuer seulement de la 
+                communication au sein de son entreprise et qui n'a pas de développeur attitré dans son service car le système de bloc 
+                rend très facile le changement de contenu à l'intérieur de l'intranet. 
+                
+                Ces différente point n'ont pas permis de garder cette solution. 
+            </p>
+
+            <p>
+                La solution finale fût WordPress(Lien vers le site Wordpress.Org), le CMS le plus utilisé actuellement, permettant de créer 
+                un site web comme un intranet. La documentation étant riche il a donc était facile de comprendre le fonctionnement de Wordpress
+                et son système de bloc. 
+                Attention tout de même à ne pas vous tromper entre Wordpress.com où votre site est hébergé par Wordpress et où les extensions 
+                sont payantes et Wordpress.org où vous devez héberger votre site mais où les extensions sont gratuite ! 
+                Suite à ce choix plusieurs test ont était effectué et concluant, permettant donc de passer à la mission suivante ! 
+                L'organigramme de la mairie.
             </p>
 
 
@@ -88,7 +130,9 @@
             <br id="conclusion">
             <!-- Conclusion sur ce que m'a apporté le projet, compétences acquises -->
             <p>
-                Travail en autonomie, mission réel comparé à des projets fictifs comme l'OID ou le site EF 
+                Ce projet était vraiment plaisant à effectuer du fait de sa réalité, ce n'était pas un projet fictif comme l'on effectue en 
+                classe. Il avait donc une réelleimportance et m'a permis de me dépasser sur la recherche de solution répondant à la demande 
+                et sur le travail en autonomie que celui-ci à demandé.
             </p>
         </main>
 

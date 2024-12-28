@@ -51,7 +51,7 @@ a:hover{
     text-align: right;
 }
 
-.black {
+.white {
     color:white;
     background-color: rgb(58, 54, 54);
     border-radius: 10px;
@@ -206,7 +206,7 @@ a:hover{
     padding-right: 18px;
 }
 
-#TEST{
+#img90{
     width:90%;
     height:90%;
 }
