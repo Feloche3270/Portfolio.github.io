@@ -88,6 +88,11 @@ a:hover{
     border: black solid;
 }
 
+#fleche{
+    width: 100%;
+    height: 70%;
+}
+
 #logo{
     width: 50px;
     height: 50px;
@@ -103,96 +108,6 @@ a:hover{
     height: 250px;
     border: black solid 3px;
 }
-
-/* Mes carrés */
-#squareBlue{
-    width: 97%;
-    height: 120%; 
-    background-color: aqua;
-    transform: rotate(45deg);
-    border: black solid;
-    border-width: 2px;
-    position: absolute;
-}
-
-#squareGreen{
-    width: 150px;
-    height: 150px; 
-    background-color:chartreuse;
-    transform: rotate(45deg);
-    border: black solid;
-    border-width: 2px;
-    position: absolute;
-}
-
-#squareOrange{
-    width: 150px;
-    height: 150px; 
-    background-color: orange;
-    transform: rotate(45deg);
-    border: black solid;
-    border-width: 2px;
-    position:absolute;
-}
-
-#squareRed{
-    width: 150px;
-    height: 150px; 
-    background-color: red;
-    transform: rotate(45deg);
-    border: black solid;
-    border-width: 2px;
-    position: absolute;
-}
-
-#unrotate{
-    transform: rotate(-45deg); 
-    position: absolute;
-}
-
-#heightSquare{
-    height: 130px;
-}
-
-/* #paddingSquareBlue{
-    padding-left:   300px;
-} */
-
-#paddingSquareGreen{
-    padding-left: 35px;
-}
-
-#paddingSquareOrange{
-    padding-left: 55px;
-}
-
-#paddingSquareRed{
-    padding-left: 75px;
-}
-
-#paddingTextBlue{
-    padding-top: 40px;
-    padding-right: 10px;
-    font-weight: 400;
-}
-
-#paddingTextGreen{
-    padding-top: 30px;
-    padding-left: 10px;
-    font-weight: 400;
-}
-
-#paddingTextOrange{
-    padding-top: 40px;
-    padding-left: 10px;
-    font-weight: 400;
-}
-
-#paddingTextRed{
-    padding-top: 60px;
-    font-weight: 400;
-}
-
 
 #descrSLAM{
     width: 120%;
