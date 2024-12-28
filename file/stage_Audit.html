@@ -62,78 +62,141 @@
             <br>
             <br id="projet">
             <!-- Expliquer le projet, les consignes -->
-            <p>
-                Voilà donc le premier projet de stage, réalisé sur la période du 13 Mai au 28 Juin 2024. 
-                Ce projet avait pour but l'étude de l'intranet en production actuellement pour entrevoir l'évolution du CMS et le
-                développement possible du module organigramme. Il a fallut rendre un audit fonctionnel et technique avec pistes 
-                d'évolution et la mise à disposition d'une maquette en fin de stage. 
-            </p>
+             <div class="row">
+              
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <p>
+                        Voilà donc le <b>premier projet de stage</b>, réalisé sur la période du <b>13 Mai au 28 Juin 2024.</b> <br>
+                        Ce projet avait pour but l'étude de l'intranet en production actuellement pour entrevoir l'évolution du CMS et le
+                        développement possible du module organigramme. <br>
+                        Il a fallut rendre un audit fonctionnel et technique avec pistes d'évolution et la mise à disposition d'une maquette en fin de stage. 
+                    </p>
+                </div>
+                <div class="col-sm-2"></div>
+             </div>
+            
 
             <br>
             <br>
             <br id="realisation">
             <!-- Donner un aperçu de réalisation du projet -->
-            <p>
-                L'intranet de l'organisation étant difficilement maintenu à jour depuis le départ du dernier développeur il a donc fallut 
-                s'imprégnier du code et de l'organisation des différentes tables et modules développé par celui-ci sur la technologie SPIP
-                (https://fr.wikipedia.org/wiki/SPIP_(logiciel))
-
-                J'ai donc premièrement analysé la base de donnée de l'intranet (composée de 140 tables!) afin de mettre en lien les 
-                différentes relations des tables et des modulesprésent dans l'intranet actuel pour pouvoir reproduir un schéma similaire
-                lors de l'audit vers un nouvel intranet. 
-
-                Après une longue analyse le schéma de la base de donnée était enfin terminé ce qui a permis d'y voir plus claire dans 
-                la relation entre les tables.
-            </p>
-
-            <p>
-                Suite à cela j'ai commencé par me poser différentes questions : Quels sont les objectifs de l'intranet ? Quelles sections
-                doivent être inclus dans l'intranet et les informations liées à ces sections ? 
-                
-                Suite à ces questions j'ai donc cherché les différents CMS (Content Management System) pouvant me permettre de créer un 
-                intranet facilement modifiable et maintenable.
-
-                J'ai premièrement pensé à Drupal(Lien vers le site Drupal) qui est un CMS open source (dans la même idée que SPIP) mais le 
-                problème après quelque test restait la compréhension du CMS et la facilité de maintenance pour une personne qui n'est pas 
-                développeur de métier. 
-            </p>
-
-            <p>
-                La deuxième solution envisagée fût SharePoint(Lien vers le site SharePoint) de la suite Microsoft 365. Tous les agents sont
-                sous Microsoft 365 et ont donc déjà des comptes de travail Microsoft. Le problème étant les limites vraiment rapide de 
-                l'intranet Sharepoint tel que l'ajout de personne en dehors de la société qui utilisent l'intranet et ces comptes ont un 
-                coût pour l'entreprise.
-                Le deuxième problème étant les applications métier développée directement dans l'intranet rendent impossible le fait 
-                d'avoir de tel applications dans SharePoint(ou pas à ma connaissance et il faudrait un portail pour rediriger vers un site 
-                externe).
-
-                L'intranet SharePoint serait un très bon modèle pour une entreprise qui aurait besoin d'effectuer seulement de la 
-                communication au sein de son entreprise et qui n'a pas de développeur attitré dans son service car le système de bloc 
-                rend très facile le changement de contenu à l'intérieur de l'intranet. 
-                
-                Ces différente point n'ont pas permis de garder cette solution. 
-            </p>
-
-            <p>
-                La solution finale fût WordPress(Lien vers le site Wordpress.Org), le CMS le plus utilisé actuellement, permettant de créer 
-                un site web comme un intranet. La documentation étant riche il a donc était facile de comprendre le fonctionnement de Wordpress
-                et son système de bloc. 
-                Attention tout de même à ne pas vous tromper entre Wordpress.com où votre site est hébergé par Wordpress et où les extensions 
-                sont payantes et Wordpress.org où vous devez héberger votre site mais où les extensions sont gratuite ! 
-                Suite à ce choix plusieurs test ont était effectué et concluant, permettant donc de passer à la mission suivante ! 
-                L'organigramme de la mairie.
-            </p>
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <p>
+                        L'intranet de l'organisation étant difficilement maintenu à jour depuis le départ du dernier développeur il a donc fallut 
+                        s'imprégnier du code et de l'organisation des différentes tables et modules développé par celui-ci sur la technologie 
+                        <a href="https://fr.wikipedia.org/wiki/SPIP_(logiciel)"><b>SPIP</b></a>. <br><br>
+        
+                        J'ai donc premièrement analysé avec Quentin (le deuxième stagiaire sur cette période) la base de donnée de l'intranet 
+                        (composée de 140 tables!) afin de mettre en lien les différentes relations des tables et des modules présent dans 
+                        l'intranet actuel pour pouvoir reproduir un schéma similaire lors de l'audit vers un nouvel intranet. <br>
+        
+                        Après une longue analyse le schéma de la base de donnée était enfin terminé ce qui a permis d'y voir plus claire dans 
+                        la relation entre les tables.
+                    </p>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-4 d-flex align-items-center justify-content-center">
+                    <img src="/img/schema_BDD_1.png" alt="Schéma de la BDD de l'intranet de la mairie" id="img90">
+                </div>
+                <div class="col-sm-4 d-flex align-items-center justify-content-center">
+                    <img src="/img/schema_BDD_2.png" alt="Schéma de la BDD de l'intranet de la mairie" id="img90">
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <p>
+                        <b>Suite à cela j'ai commencé par me poser différentes questions :</b> <br>
+                        Quels sont les objectifs de l'intranet ? <br>
+                        Quelles sections doivent être inclus dans l'intranet et les informations liées à ces sections ? <br><br>
+                        
+                        Suite à ces questions j'ai donc cherché les différents CMS (Content Management System) pouvant me permettre de créer un 
+                        intranet facilement modifiable et maintenable. <br>
+        
+                        J'ai premièrement pensé à <a href="https://new.drupal.org/home"><b>Drupal</b></a> qui est un CMS open source 
+                        (dans la même idée que SPIP) mais le <b>problème</b> après quelque test restait la <b>compréhension</b> du CMS et la facilité de 
+                        <b>maintenance</b> pour une personne qui n'est pas développeur de métier. 
+                    </p>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <p>
+                        La deuxième solution envisagée fût <a href="https://fr.wikipedia.org/wiki/Microsoft_SharePoint"><b>SharePoint</b></a> de la suite Microsoft 365.
+                        Tous les agents sont sous Microsoft 365 et ont donc déjà des comptes de travail Microsoft. <br>
+                        Le problème étant les limites vraiment rapide de l'intranet Sharepoint tel que l'ajout de personne en dehors de la 
+                        société qui utilisent l'intranet et ces comptes ont un coût pour l'entreprise. <br>
+                        Le deuxième problème étant les applications métier développée directement dans l'intranet rendent impossible le fait 
+                        d'avoir de tel applications dans SharePoint(ou pas à ma connaissance et il faudrait un portail pour rediriger vers un site 
+                        externe). <br><br>
+        
+                        L'intranet SharePoint serait un très bon modèle pour une entreprise qui aurait besoin d'effectuer seulement de la 
+                        communication au sein de son entreprise et qui n'a pas de développeur attitré dans son service car le système de bloc 
+                        rend très facile le changement de contenu à l'intérieur de l'intranet.  <br><br>
+                        
+                        Ces différente point n'ont <b>pas permis de garder cette solution</b> . 
+                    </p>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <p>
+                        La solution finale fût <a href="https://wordpress.org"><b>WordPress</b></a>, le CMS le plus utilisé actuellement, permettant de créer 
+                        un site web comme un intranet. <br>
+                        La documentation étant riche il a donc était facile de comprendre le fonctionnement de Wordpress et son système de bloc. <br>
+                        Attention tout de même à ne pas vous tromper entre Wordpress.com où votre site est hébergé par Wordpress et où les extensions 
+                        sont payantes et Wordpress.org où vous devez héberger votre site mais où les extensions sont gratuite ! <br>
+                        Suite à ce choix plusieurs test ont était effectué et concluant, permettant donc de passer à la mission suivante ! <br><br>
+                        <b>L'organigramme de la mairie.</b>
+                    </p>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+           
+            
 
 
             <br>
             <br>
             <br id="conclusion">
             <!-- Conclusion sur ce que m'a apporté le projet, compétences acquises -->
-            <p>
-                Ce projet était vraiment plaisant à effectuer du fait de sa réalité, ce n'était pas un projet fictif comme l'on effectue en 
-                classe. Il avait donc une réelleimportance et m'a permis de me dépasser sur la recherche de solution répondant à la demande 
-                et sur le travail en autonomie que celui-ci à demandé.
-            </p>
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <h3>Conclusion</h3>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <p>
+                        Ce projet était vraiment plaisant à effectuer du fait de sa réalité, ce n'était pas un projet fictif comme l'on effectue en 
+                        classe. Il avait donc une réelleimportance et m'a permis de me dépasser sur la recherche de solution répondant à la demande 
+                        et sur le travail en autonomie que celui-ci à demandé.
+                    </p>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+            
         </main>
 
         <footer></footer>
