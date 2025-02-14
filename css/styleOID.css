@@ -1,4 +1,7 @@
 /* BLOC */
+p {
+    font-size: 20px;
+}
 
 /* Couleur pour mes liens */
 a:link{
@@ -14,6 +17,10 @@ a:hover{
 }
 
 /* .Classe */
+.row{
+    margin-right: 0px !important;
+}
+
 .raleway-font {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
@@ -29,14 +36,32 @@ a:hover{
     background-color: rgb(222,81,0);
 }
 
+.left{
+    text-align: left;
+}
+
 
 /* #ID */
 #background{
     height: auto;
     width: auto;
     text-align: center;
-    background-image: url();
+    background-image: url(/img/whiteBackground.jpg);
     background-repeat: repeat;
     background-size:contain;
     background-position: center;
+}
+
+#imgLot{
+    width:90%;
+    height:auto;
+}
+
+#imgAuto{
+    width:auto;
+    height:auto;
+}
+
+#smallSize{
+    font-size: x-small;
 }
