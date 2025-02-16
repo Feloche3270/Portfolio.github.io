@@ -15,6 +15,10 @@ a:hover{
 }
 
 /* .Classe */
+.row{
+    margin-right: 0px !important;
+}
+
 .raleway-font {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
@@ -23,7 +27,11 @@ a:hover{
 }
 
 .navbar{
-    background-color: rgb(45, 59, 212);
+    background-color: rgb(12, 160, 173);
+}
+
+.footer{
+    background-color: rgb(12, 160, 173);
 }
 
 .footer{
@@ -31,7 +39,10 @@ a:hover{
 }
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> fee983c3f4d433618a49019f0b53814bed45727e
 /* #ID */
 
 #background{

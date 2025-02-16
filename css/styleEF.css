@@ -1,4 +1,7 @@
 /* BLOC */
+p {
+    font-size: 20px;
+}
 
 /* Couleur pour mes liens */
 a:link{
@@ -14,6 +17,11 @@ a:hover{
 }
 
 /* .Classe */
+
+.row{
+    margin-right: 0px !important;
+}
+
 .raleway-font {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
