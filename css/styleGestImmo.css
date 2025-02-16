@@ -33,26 +33,3 @@ a:hover{
 .footer{
     background-color: rgb(12, 160, 173);
 }
-
-
-/* #ID */
-
-#background{
-    height: auto;
-    width: auto;
-    text-align: center;
-    background-image: url(/img/whiteBackground.jpg);
-    background-repeat: repeat;
-    background-size:contain;
-    background-position: center;
-}
-
-#imgAuto{
-    width:auto;
-    height:auto;
-}
-
-#img110{
-    width:110%;
-    height:100%;
-}
