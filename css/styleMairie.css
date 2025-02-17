@@ -14,6 +14,12 @@ a:hover{
     color:rgb(255, 255, 255) !important;
 }
 
+main{
+    a:hover{
+        color: black!important;
+    }
+}
+
 /* .Classe */
 .row{
     margin-right: 0px !important;
