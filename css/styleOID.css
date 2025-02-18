@@ -40,6 +40,9 @@ a:hover{
     text-align: left;
 }
 
+.justify-left{
+    text-align: justify;
+}
 
 /* #ID */
 #background{
