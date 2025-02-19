@@ -3,6 +3,10 @@ p {
     font-size: 20px;
 }
 
+*{
+    scroll-behavior: smooth;
+}
+
 /* Couleur pour mes liens */
 a:link{
     color:black;
@@ -67,6 +71,21 @@ a:hover{
 }
 
 .img90{
+    width:95%;
+    height:95%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: all 0.5s;
+    position: relative;
+}
+
+.img90:hover{
+    scale: 1.5;
+    z-index: 1000;
+}
+
+
+.img100{
     width:95%;
     height:95%;
     border-radius: 5px;

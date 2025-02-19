@@ -1,4 +1,7 @@
 /* BLOC */
+*{
+    scroll-behavior: smooth;
+}
 
 /* Couleur pour mes liens */
 a:link{

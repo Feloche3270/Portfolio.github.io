@@ -1,5 +1,9 @@
 /* BLOC */
 
+*{
+    scroll-behavior: smooth;
+}
+
 /* Couleur pour mes liens */
 a:link{
     color:rgb(255, 255, 255);
