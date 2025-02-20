@@ -117,6 +117,11 @@ a:hover{
     }
 }
 
+.testBorder{
+    margin-top: auto;
+    border-top: 2px solid red;
+}
+
 
 /* #ID */
 
@@ -184,3 +189,74 @@ a:hover{
 }
 
 
+
+/* Ma timeline pour mon parcours */
+.hori-timeline .events {
+    border-top: 6px solid rgb(0, 0, 0);
+}
+
+.hori-timeline .events 
+.event-list {
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-right: 0;
+}
+
+.hori-timeline .events 
+.event-list:before {
+    content: "";
+    position: absolute;
+    height: 36px;
+    border-right: 4px dashed #000203;
+    top: 0;
+}
+
+.hori-timeline .events .event-list 
+.event-date {
+    position: absolute;
+    top: 38px;
+    left: 0;
+    right: 0;
+    width: 75px;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 2px 4px;
+}
+
+
+@media (min-width: 1140px) {
+    .hori-timeline .events 
+    .event-list {
+        display: inline-block;
+        width: 24%;
+        padding-top: 45px;
+    }
+
+    .hori-timeline .events 
+    .event-list .event-date {
+        top: -12px;
+    }
+}
+
+.cardMine {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    margin-bottom: 24px;
+}
+
+.colorDateBefore{
+    color:rgb(0, 0, 0);
+    font-size: x-large;
+}
+
+.colorDateNow{
+    color: rgb(10, 156, 5);
+    font-weight: bolder;
+    font-size: x-large;
+}
