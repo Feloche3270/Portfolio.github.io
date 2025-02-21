@@ -62,7 +62,6 @@ a:hover{
 }
 
 .logo{
-    width: 100px;
     height: 100px;
     transition: all 0.3s;
 }
